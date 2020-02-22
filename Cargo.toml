@@ -1,0 +1,5 @@
+[package]
+
+name = "efg-river"
+version = "0.0.1"
+authors = [ "Eigo Fujikawa <efg.river@gmail.com>" ]
