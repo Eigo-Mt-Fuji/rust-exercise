@@ -51,19 +51,19 @@ fn main() {
 EOF
 ```
 
-* Build
+* Build(debug)
 
 ```bash
 cargo build
 ```
 
-* Run
+* Run(debug)
 
 ```bash
 cargo run
 ```
 
-* Output
+* Run(debug) Output
 
 ```bash
 EigonoMacBook-Pro:rust-exercise fujikawa$ cargo run
@@ -73,3 +73,23 @@ Hello, world!
 ```
 
 
+* Build(release)
+
+```bash
+cargo build --release
+```
+
+* Run(release)
+
+```bash
+cargo run --release
+```
+
+* Run(release) Output
+
+```bash
+EigonoMacBook-Pro:rust-exercise fujikawa$ cargo run --release
+    Finished release [optimized] target(s) in 0.01s
+     Running `target/release/efg-river`
+Hello, world!
+```
